@@ -3,14 +3,14 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 
-public class Palindrome {
+public class PalindromeTest {
 
 	private FindPalindromeAndSort object = new FindPalindromeAndSort();
 	@Test
 	public void palindromeFound()
 	{
-		String arrayOfStrings[] ={"shubham","nitin","tejas","mam","rohan","tushar","pranjal","prateek","pawan","zaffar"};
-		String palindromeStrings[] = {"nitin","mam"};
+		String arrayOfStrings[] ={"shubham","NitiN","nitin","mam","tejas","NitiN","rohan","tushar","pranjal","prateek","pawan","zaffar"};
+		String palindromeStrings[] = {"mam","nitin","NitiN","NitiN"};
 		
 		assertArrayEquals(palindromeStrings, object.palindromeOrNot(arrayOfStrings));
 	}
@@ -25,3 +25,5 @@ public class Palindrome {
 	}
 
 }
+
+
