@@ -1,5 +1,10 @@
 package com.mmbank.framework;
 
+/**
+ * MMSavingAccount class extends an abstract class  SavingAccount 
+ * @author sbhatt1
+ *
+ */
 public class MMSavingAccount extends SavingAccount {
 
 	private static final double minimumBalance;
@@ -10,11 +15,20 @@ public class MMSavingAccount extends SavingAccount {
 	}
 	
 	
+	/**
+	 * Parameterized constructor 
+	 * @param accountHolderName
+	 * @param accountBalance
+	 * @param isSalaried
+	 */
 	public MMSavingAccount( String accountHolderName, double accountBalance, boolean isSalaried) 
 	{
 		super( accountHolderName, accountBalance, isSalaried);
 	}
 
+	/**
+	 * overriding method inherited from SavingAccount class which is used to withdraw money from the current account
+	 */
 	@Override
 	public void withdraw(double amountToWithdraw) throws InvalidAmountException
 	{
