@@ -1,4 +1,4 @@
-package com.mmbank.framework;
+package com.mmbank.application;
 
 /**
  * Abstract class BankFactory has two abstract mehtod MmSavingAccount() and MmCurrentAccount  

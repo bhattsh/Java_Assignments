@@ -1,4 +1,4 @@
-package com.mmbank.framework;
+package com.mmbank.application;
 
 /**
  * CurrentAccount is an abstract class which extends BankAccount class

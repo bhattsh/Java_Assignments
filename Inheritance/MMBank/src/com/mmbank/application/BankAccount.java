@@ -1,4 +1,4 @@
-package com.mmbank.framework;
+package com.mmbank.application;
 /**
  * 
  * @author Shubham Bhatt
